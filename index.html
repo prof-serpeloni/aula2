@@ -6,55 +6,152 @@
         <title>Aula 2</title>
     </head>
     <body>
-        <h1>Aula 1</h1>
+        <header>
+            <h1>Aula 1</h1>
+        </header>
 
-        <h2>Parágrafos</h2>
+        <nav>
+            <ul>
+                <li><a href="#paragrafo">Paragrafo</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+                <li><a href="#tabelas">Tabelas</a></li>
+                <li><a href="#div">Div</a></li>
+            </ul>
+        </nav>
 
-        <p>Este é um parágrafo.</p>
-        <p>Este é outro parágrafo.</p>
 
-        <h2>Listas</h2>
-        <h3>Lista Não ordenada</h3>
-        <ul>
-            <li>Primeiro item</li>
-            <li>Outro item</li>
-            <li>
+        <main>
+            <section id="paragrafo">
+                <h2>Parágrafos</h2>
+
+                <p>Este é um parágrafo.</p>
+                <p>Este é outro parágrafo.</p>
+            </section>
+
+            <section id="listas">
+                <h2>Listas</h2>
+                <h3>Lista Não ordenada</h3>
                 <ul>
-                    <li>1</li>
-                    <li>2</li>
+                    <li>Primeiro item</li>
+                    <li>Outro item</li>
+                    <li>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
 
-        <h3>Listas Ordenadas</h3>
+                <h3>Listas Ordenadas</h3>
 
-        <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-        </ol>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ol>
 
-        <h3>Listas de Definição</h3>
+                <h3>Listas de Definição</h3>
 
-        <dl>
-            <dt>Aula 1</dt>
-            <dd>Git e Github</dd>
+                <dl>
+                    <dt>Aula 1</dt>
+                    <dd>Git e Github</dd>
 
-            <dt>Aula 2</dt>
-            <dd>Estrutura HTML</dd>
-        </dl>
+                    <dt>Aula 2</dt>
+                    <dd>Estrutura HTML</dd>
+                </dl>
 
-        <h2>Links</h2>
+            </section>
 
-        <a href="http://www.google.com" target="_blank">Site Google</a>
+            <section id="links">
+                <h2>Links</h2>
 
-        <a href="logo1.png">Imagem</a>
+                <a href="http://www.google.com" target="_blank">Site Google</a>
 
-        <a href="imagens/logo2.png">Imagem 2</a>
+                <a href="logo1.png">Imagem</a>
 
-        <h2>Imagens</h2>
+                <a href="imagens/logo2.png">Imagem 2</a>
+            </section>
 
-        <img src="logo1.png" alt="Logotipo FATEC Araras">
+            <section id="imagens">
+                <h2>Imagens</h2>
 
+                <img src="logo1.png" alt="Logotipo FATEC Araras">
+            </section>
+
+            <section id="tabelas">
+                <h2>Tabelas</h2>
+
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                Perfil
+                            </th>
+                            <th scope="col">
+                                Nome
+                            </th>
+                            <th scope="col">
+                                Sobrenome
+                            </th>
+                            <th scope="col">
+                                Idade
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">
+                                Aluno
+                            </td>
+                            <td>
+                                Maria
+                            </td>
+                            <td>
+                                Silva
+                            </td>
+                            <td>
+                                25
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                José
+                            </td>
+                            <td>
+                                Souza
+                            </td>
+                            <td>
+                                30
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="3">Total</th>
+                            <td>55</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+            </section>
+
+            <section id="div">
+                <h2>Div</h2>
+
+                <div>
+                    <p>Teste</p>
+                    <p>Outro</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Aula Desenvolvimento Web I</p>
+        </footer>
     </body>
 
 
