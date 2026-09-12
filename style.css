@@ -1,0 +1,31 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: yellow;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+section.fundo-verde {
+    background-color: green;
+}
+
+#menu {
+    background-color: gray;
+}
+
+#menu a {
+    color: yellow;
+}
+
+#menu a:hover {
+    color: red;
+}
